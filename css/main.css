@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  ul {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #383334;
+    margin-top: 0;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .logobanner {
+      background-color: #FFC4D4;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      right: 0;
+      height: 150px;
+      display: flex;
+      margin-top: 0;
+      justify-content: center;
+    }
+  li {
+    float: left;
+    border: 0px;
+  }
+  a {
+    display: inline-block;
+    padding: 60px;
+  }
+  a:link, a:visited, a:active {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a:hover {
+    text-decoration: none;
+    background-color:#FFC4D4;
+  }
+  div.gallery {
+    border: 0px solid #ccc;
+    margin-top: 280px;
+  }
+  div.gallery:hover {
+    border: 0px solid #777;
+  }
+  div.gallery img {
+     width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #383334;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33.3%;
+  }
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #383334;;
+    padding: 50px;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+  .news{
+    text-align: center;
+    font-size: larger;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #383334;
+    padding: 10px;
+    margin-top: 100px;
+    overflow: hidden;
+  }
+
+  .video {
+    text-align: center;
+    padding-top: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*Contact form Elli*/
+
+  h1 { 
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(37, 37, 37);
+  }
+
+  .container {
+    display: flex;
+    width: auto;
+    justify-content: center;
+  }       
+  
+  form {
+    border-radius: 30px;
+    background-color: #FFC4D4;
+    text-align: left;
+    padding: 100px;
+    margin: 80px 500px 100px 500px;
+    display: flex;
+    flex-direction: column;  
+  }
+
+
+  input{
+    min-height: 50px;
+    width: 500px;
+    padding: 10px 20px;
+    margin: 12px;
+    border: none;
+    border-radius: 12px;
+  }
+
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding-left: 15px;
+  }
+
+  textarea{
+    min-height: 100px;
+    width: 500px;
+    padding: 10px 20px;
+    margin: 12px;
+    border: none;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .messagebox {
+    height: 150px;
+    padding-top: 0px;
+  }
+
+ 
+  button {
+    border: 2px solid rgb(37, 37, 37);
+    background-color: #FFC4D4;
+    color: rgb(37, 37, 37);
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 50px 12px 0 90px ;
+    justify-content: center;
+    
+  }
+
+  button:hover {
+    color: #FFC4D4;
+    background-color: rgb(37, 37, 37);
+    border: none;
+  }
+ 
+  
+  @media screen and (max-width: 800px) {
+    .flex-container {
+        justify-content: center;
+    }
+  @media screen and (max-width: 400px){
+    .gallery {
+        width: 95vw;
+        height: auto;
+    }
+  
