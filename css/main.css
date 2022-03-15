@@ -174,7 +174,7 @@ body {
   }
 
  
-  button {
+  #submit {
     border: 2px solid rgb(37, 37, 37);
     background-color: #FFC4D4;
     color: rgb(37, 37, 37);
